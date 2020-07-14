@@ -1,0 +1,70 @@
+.main{
+	background-color: lightgrey;
+	margin-left: 22%;
+	margin-top: 25%;
+	margin-right: 18%;
+	height: 10%;
+	border-radius: 50px;
+}
+.inner-form select{
+	font-size: 22px;
+	border-radius: 15px;
+}
+.button{
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: lightgreen;
+	margin-left: 72%;
+	margin-top: -4%;
+}
+#type{
+	margin-left: 37%;
+	margin-top: -4%;
+}
+#city
+{
+	margin-left: 50px;
+	margin-top:13px;
+}
+
+.input-field select{
+	font-size: 22px;
+	border-radius: 15px;
+	margin-top: 8px;
+}
+.full{
+	border-radius: 5px;
+	border: 2px solid #d9d9d9;
+	box-shadow: 2px solid gray;
+	height: 400px;
+	width: 250px;
+	margin-left: 50px;
+	padding-top: 20px;
+	margin-top: 50px;
+	
+}
+nav{
+	background-color: lightgrey;
+	width: 100%;
+	height: 40px;
+	font-size: 23px;
+}
+nav li{
+	list-style: none;
+	color: white;
+	display: inline-block;
+}
+nav li a{
+	color: white;
+
+}
+.main-full{
+	margin-left: 80%;
+	width: 100%;
+	float: right;
+}
+.img{
+	border: 1px solid black;
+}

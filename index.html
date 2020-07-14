@@ -1,0 +1,47 @@
+
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="colorlib.com">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel='stylesheet' type='text/css' href='style.php' />
+    <style type="text/css" media="screen">
+
+  body{
+  background-image: url('images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+</style>
+  </head>
+  <body>
+    
+    <div class="main">
+      <form method="get" action="sample.php">
+        <div class="inner-form">
+          <select  id="City" name="City" class="browser-default" required>
+            <option label="Choose City" value="0" disabled="" selected="">Choose City</option>
+                <option  label="Delhi" value="Delhi"> Delhi</option>
+                <option  label="Jaipur" value="Jaipur"> Jaipur </option>
+                <option  label="Pune" value="Pune"> Pune </option>
+            	                                       
+                </select>
+            </div>
+          <div class="input-field second-wrap">
+                <select id="Type" name="Type" class="browser-default" required>
+               <option label="Choose bike type" value="0" disabled="" selected="">Choose Bike Type</option>
+                <option label="Car" value="Car"> Car</option>
+                <option label="Bike" value="Bike"> Bike</option>
+             </select>
+          </div>
+          <div>
+            <input type="submit" name="submit" value="Search" class="button">
+          </div>
+   </body>
+</html>
